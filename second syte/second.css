@@ -1,0 +1,142 @@
+p{
+        Lorem ipsum <span class="xxx">dolor sit</span> amet.
+    p}
+    .block1 {
+        color: red;
+    }
+    .block2 {
+        color: green;
+    }
+    .eee {
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial;
+    }
+    .zzz {
+        font-size: 30px;
+        line-height: 1.5;
+        font-family: Arial;
+    }
+    .eee .zzz { font: size 20ph; text-align: center; font-family: Arial ;}
+    .eee {
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial;
+    }
+    .zzz {
+        font-size: 30px;
+        line-height: 1.5;
+        font-family: Arial;
+    }
+    .eee {
+        font-size: 20px;
+    }
+    .zzz {
+        font-size: 30px;
+    }
+    .eee, .zzz {
+        line-height: 1,5;
+        font-family: Arial;
+    }
+    .eee {
+        font-size: 20px;
+        text-align: center;
+        font-family: Arial;
+    }
+    .zzz {
+        font-size: 30px;
+        text-align: center;
+        font-family: Arial;
+    }
+    .ggg {
+        font-size: 35px;
+        text-align: center;
+        font-family: Arial;
+    }
+    .eee .zzz .ggg {
+        text-align: center;
+        font-family: Arial;
+    }
+    <h2 class="header">text</h2>
+    <h2 class="header">text</h2>
+    <h3 class="header">text</h3>
+    <h3 class="header">text</h3>
+    .header {
+        width: 40px;
+        color: red;
+    }
+    .block h2 {
+        color: red;
+    }
+    .block p {
+        color: rgb(61, 36, 85);
+    }
+#elem1 {
+    background-color: yellowgreen;
+}
+#elem2 {
+    background-color: lightcoral;
+}
+#elem3 {
+    background-color: darkolivegreen;
+}
+#block {
+    color: lemonchiffon;
+}
+.text {
+    color: darkorange;
+}
+
+.eee.zzz.ccc {
+    color: lightseagreen;
+   }
+
+#block h2, #block h1 {
+    text-align: center;
+   }
+   #block h1 {
+    font-size: 30px;
+   }
+   #block h2 {
+       font-size: 20px;
+   }
+   #block h2, #block h1 {
+    text-align: center;
+   }
+   #block h2 {
+    color: blue;
+   }
+   #block h3 {
+    font-size: 16px;
+    color: red;
+   }
+   #block h2, #block h1, #block h3 {
+    text-align: center;
+   }
+   #block h1.eee {
+    font-size: 30px;
+   }
+   #block h2.zzz {
+    font-size: 20px;
+   }
+   #block h2.zzz, #block h1.eee {
+    text-align: center;
+   }
+   .xxx .kkk, .eee h2.zzz, #eee h2 {
+       text-align: center;
+   }
+.xxx .eee h2.zzz {
+    text-align: center;
+}
+ul li #привет {
+    color: rgb(61, 36, 85);
+}
+ul li .привет {
+    color: grey;
+}
+.test ~ #привет {
+ color:brown;
+}
+main * {
+ color: darkolivegreen;
+}
